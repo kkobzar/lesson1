@@ -5,3 +5,9 @@ class Person:
   name = 'Kyryl'
 
 
+me = Person()
+friend = Person()
+
+print(me.age)
+friend.name = "Kolya"
+print(friend.name)
